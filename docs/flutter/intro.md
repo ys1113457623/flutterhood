@@ -4,9 +4,16 @@ sidebar_position: 1
 
 # What is Flutter
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Flutter is an open source framework built on top of [Dart Language](/docs/flutter/what-is-dart.md) developed by Google launched in May 2017. It allows developers to build high-quality, natively compiled applications for mobile, web , desktop, smart TVs and Embeded devices(Raspberry Pi and Iot Devices).
 
-## Getting Started
+## Analytics
+
+
+![Analytics](./img/Flutter-Usage-Statistics.png)
+
+* More than 36,889 projects were built with Flutter and have been downloaded over 11 Billion times.
+* As of February 2023, Flutter has 487,428 repository results this number almost doubled as in 2022
+* As of April 2023, Flutter has about [152K Stars](https://github.com/flutter/flutter) on Github and has about [159,751](https://stackoverflow.com/questions/tagged/flutter) questions asked on Stackoverflow
 
 Get started by **creating a new site**.
 
