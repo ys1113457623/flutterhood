@@ -8,35 +8,57 @@ Flutter is an open source framework built on top of [Dart Language](/docs/flutte
 
 ## Analytics
 
-
 ![Analytics](./img/Flutter-Usage-Statistics.png)
 
-* More than 36,889 projects were built with Flutter and have been downloaded over 11 Billion times.
-* As of February 2023, Flutter has 487,428 repository results this number almost doubled as in 2022
-* As of April 2023, Flutter has about [152K Stars](https://github.com/flutter/flutter) on Github and has about [159,751](https://stackoverflow.com/questions/tagged/flutter) questions asked on Stackoverflow
+- More than 36,889 projects were built with Flutter and have been downloaded over 11 Billion times.
+- As of February 2023, Flutter has 487,428 repository results this number almost doubled as in 2022
+- As of April 2023, Flutter has about [152K Stars](https://github.com/flutter/flutter) on Github and has about [159,751](https://stackoverflow.com/questions/tagged/flutter) questions asked on Stackoverflow
 
-Get started by **creating a new site**.
+## Whay it is growing so much ?
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**1. Best for cross-platform app development.**
 
-### What you'll need
+> Before Flutter, companies often chose cross-platform development for its cost-effectiveness and faster development time compared to native development, even though cross-platform apps typically lacked in performance and native appearance.
+> However, with the introduction of Flutter, it became possible to build apps with performance that was close to native. This means that companies no longer have to choose between cost and quality when deciding on a development approach.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**2. Outstanding performance**
 
-## Generate a new site
+> Flutter apps achieve great performance results, ranging from 60 to 120 frames per second (fps), thanks to the use of Dart as its programming language. Dart is a client-optimized language that supports Ahead-of-Time (AOT) compilation. By running the code natively on each platform without relying on intermediaries, Flutter apps are faster than other cross-platform frameworks which use bridging technology.
 
-Generate a new Docusaurus site using the **classic template**.
+**3. Hot Reload**
 
-The classic template will automatically be added to your project after you run the command:
+> Hot reload is a beloved feature among Flutter developers and highly valued by business owners. With hot reload, developers can instantly see the changes made to the code without the need to restart the application. This feature not only saves time but also reduces development costs.Hot reload enables developers to iterate quickly on code changes, identify and fix code errors more efficiently, and experiment more freely, leading to an improved user experience.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+**4. Pre-built UI widgets**
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+> The core UI building blocks for Flutter apps are widgets. Flutter offers an extensive range of built-in widgets, including both stateless widgets such as Icon, IconButton, and Text, as well as stateful widgets like Checkbox, Radio, Slider, InkWell, and Form.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+export const Image = ({image}) => (
+<img
+src={require(`${image}`).default}
+alt="Example banner"
+width="100"
+height="100"
+/>
+);
+
+## React Native vs Flutter
+
+| Framework                | <Image image="./img/flutter.jpeg" />     | <Image image="./img/react_native.png" /> |
+| ------------------------ | ---------------------------------------- | ---------------------------------------- |
+| Initial Release          | May 2017                                 | March 2015                               |
+| Developed By             | Google                                   | Facebook                                 |
+| Programming Language     | Dart                                     | Javascript                               |
+| Platform Support         | Android,IOS,Smart TV, Wearables, IOT     | Android,IOS,Web Apps                     |
+| App Performance          | Close to native                          | Fairly robust                            |
+| Documentation            | Extensive                                | Extensive                                |
+| UI                       | Proprietary customized widgets           | Native Component                         |
+| Community & support      | Limited, fast growing                    | Extensive                                |
+| 60+ fps support          | ✅                                        | Require workarounds                      |
+| Code reusability         | ✅                                        | ✅                                        |
+| JIT,AOT complication     | ✅                                        | ❌                                        |
+| Used By                  | Google, Alibaba, Tencent, Reflectly      | Facebook, Instagram, Uber, Salesforce    |
+| **Compilation Langauge** | **Directly to Java, Swift, Objective-C** | **Runs Javascript**                      |
 
 ## Start your site
 
