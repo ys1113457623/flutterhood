@@ -60,17 +60,17 @@ height="100"
 | Used By                  | Google, Alibaba, Tencent, Reflectly      | Facebook, Instagram, Uber, Salesforce    |
 | **Compilation Langauge** | **Directly to Java, Swift, Objective-C** | **Runs Javascript**                      |
 
-## Start your site
+## Flutter Ecosytem
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
 ```
+Why Did The Flutter Developer Cross The Road
+To Get To The Flutter Plugin Store On The Other Side 😂
+```
+The Flutter ecosystem is a wonderful resource for developers, offering a wide range of tools and plugins to help them build better apps faster. So if you're a Flutter developer, don't be afraid to explore the ecosystem and discover all the great resources it has to offer!
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+For example, there are plugins for integrating with popular services like Firebase, Google Maps, and AdMob. There are also packages for integrating with popular state management solutions like MobX and Provide
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+In addition to the pre-built widgets and plugins, the Flutter ecosystem also includes a number of tools for testing and debugging your app. The Flutter team provides the Flutter DevTools, which is a suite of tools for analyzing and debugging Flutter apps. There are also a number of third-party testing frameworks and plugins available for Flutter, such as Flutter Driver and Flutter Test.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Finally, the Flutter ecosystem is supported by a large and active community of developers. This community is constantly developing new packages, plugins, and tools to improve the Flutter ecosystem and make app development easier and more efficient. This community is also a great resource for developers who are just starting out with Flutter, as there are many resources available for learning and getting started with the framework.
+
