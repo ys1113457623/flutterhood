@@ -7,11 +7,10 @@ Flutter uses Dart because it allows the framework to avoid using a separate decl
 
 ### Combines Ahead-of-Time and Just-in-Time Compilation 
 
-In creation, developers typically need to decide on a certain kind of compilation for their programming language. That is, whether the program is to be executed before or during runtime. Ahead-of-Time (AOT) compiled programs generally run quicker since they are compiled before execution. However, in reality, with ahead of time compilation, the development itself is decelerated. 
+In the initial days of Flutter it used four primary dimensions for evaluation, and considered the needs of framework authors, developers, and end users
 
-Just-in-Time (JIT) compilation, on the other hand, helps quicken development processes but reduces the application’s initialization speed, as the compiler executes the code at or just before runtime. 
+Dart runtimes and compilers support the combination of two critical features for Flutter: a JIT-based fast development cycle that allows for shape changing and stateful hot reloads in a language with types, plus an Ahead-of-Time compiler that emits efficient ARM code for fast startup and predictable performance of production deployments.
 
-Overcoming these issues, Flutter uses JIT compilation for development and AOT for launching the application, thus ensuring an optimal end-user experience.
 
 ### Eliminates XML Files
 Because Dart’s layout is easy to read and visualize, Flutter doesn’t require a separate language for its layout, like XML. Flutter also has advanced tooling as everything is in one language and in one place.
