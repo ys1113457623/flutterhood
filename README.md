@@ -1,41 +1,25 @@
-# Website
+# Flutterhood
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+Flutterhood is a website that serves as a comprehensive resource for developers looking to learn and build with Flutter. This project aims to provide a centralized hub of information, tutorials, and best practices for Flutter development.
 
-### Installation
+## Features
 
-```
-$ yarn
-```
+Flutterhood includes the following features:
 
-### Local Development
+- **Articles:** A collection of in-depth articles covering various aspects of Flutter development, from beginner to advanced topics.
+- **Tutorials:** Step-by-step tutorials that guide you through building real-world Flutter applications.
+- **Resources:** A curated list of tools, libraries, and other resources for Flutter development.
 
-```
-$ yarn start
-```
+## Getting Started
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+To get started with Flutterhood, simply navigate to [https://flutterhood.com](https://flutterhood.com) (Currently In Development) in your web browser. From there, you can browse the available articles, tutorials, and other resources.
 
-### Build
+If you want to contribute to Flutterhood, you can do so by submitting a pull request on GitHub. The code for Flutterhood is available at [https://github.com/yourusername/flutterhood](https://github.com/ys1113457623/flutterhood).
 
-```
-$ yarn build
-```
+## Contributing
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+If you're interested in contributing to Flutterhood, please refer to the [contributing guidelines](CONTRIBUTING.md) for more information.
 
-### Deployment
+## License
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Flutterhood is released under the [MIT License](LICENSE).
