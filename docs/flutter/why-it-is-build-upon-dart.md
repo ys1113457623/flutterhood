@@ -2,33 +2,49 @@
 sidebar_position: 2
 ---
 
+
+
+```mermaid
+gantt
+dateFormat  YYYY-MM-DD
+title Dart Timeline
+
+section Dart Development
+Dart Language Announced     :active,    2011-10-10, 60d
+Dart 1.0 Released           :completed, 2013-11-14, 30d
+Dart 2.0 Announced          :completed, 2018-02-28, 30d
+Dart 2.0 Released           :completed, 2018-08-07, 30d
+Sound Null Safety Released  :completed, 2020-11-18, 30d
+Dart 2.12 Released          :completed, 2021-03-03, 30d
+```
+
+
 # Why Flutter Uses Dart
 Flutter uses Dart because it allows the framework to avoid using a separate declarative layout language such as JSX or XML. Dart's layout is both declarative and programmatic, making it easy for developers to read and quickly visualize. This eliminates the need for a separate markup language and enables developers to write more expressive, efficient, and maintainable code. In summary, Dart's declarative and programmatic approach to layout simplifies Flutter's development process and improves the overall experience for developers.
 
-### Combines Ahead-of-Time and Just-in-Time Compilation 
+### Performance
 
-In the initial days of Flutter it used four primary dimensions for evaluation, and considered the needs of framework authors, developers, and end users
-
-Dart runtimes and compilers support the combination of two critical features for Flutter: a JIT-based fast development cycle that allows for shape changing and stateful hot reloads in a language with types, plus an Ahead-of-Time compiler that emits efficient ARM code for fast startup and predictable performance of production deployments.
+Dart is designed for performance and allows ahead-of-time (AOT) compilation to native code, which leads to faster startup times and smoother animations. This is important for mobile applications where users expect a responsive and fluid experience.
 
 
-### Eliminates XML Files
-Because Dart’s layout is easy to read and visualize, Flutter doesn’t require a separate language for its layout, like XML. Flutter also has advanced tooling as everything is in one language and in one place.
+### Hot Reload
+Dart supports just-in-time (JIT) compilation, which enables the Hot Reload feature in Flutter. Hot Reload allows developers to see the results of their code changes almost instantly, without losing the application state. This significantly improves the development workflow and speeds up the iteration process.
 
-### Eliminates the JavaScript Bridge
-Dart’s direct compilation and execution into native code without an intermediary bridge (e.g., JavaScript to Native) allows for hitchless animations on a user’s gadget, as well as smoother user interfaces running at 60fps. Additionally, Dart is able to perform object allocation and garbage collection without the need to acquire locks.
+### Ease of learning
+Dart is an easy-to-learn language, especially for developers who are already familiar with languages like Java, JavaScript, or C#. Its syntax and language features are intuitive, which helps reduce the learning curve for new developers adopting Flutter.
+### Strong typing and sound null safety:
+Dart is a statically-typed language with sound null safety. This helps catch potential bugs and errors during compile-time, improving the overall quality of the code and reducing the chances of runtime crashes.
+### First-class support:
+Since Dart is developed and maintained by Google, it receives first-class support from the Flutter team. This ensures that the language and the framework are designed to work seamlessly together, providing an optimized experience for both development and production.
 
-### Scaffolding
-The scaffold in Flutter is noticeably different from the scaffolds in iOS or React Native or Android UI. One key difference is that it stretches to fill in the space available. This typically results in the scaffold taking up the entire screen of the device window.
 
-The scaffold has APIs for an app bar, drawers, floating buttons, and the bottom sheets so that the primary content design’s graphic interface can be enforced.
+## Less Knows
+### Tree Shaking Capabilities
+Tree shaking is a compiler optimization technique that helps reduce the size of the final compiled application by eliminating unused code and libraries.
 
-### Incorporates HTTP
-The Dart programming language uses an abstraction called Future to host HTTP resources from the internet. The http.get() function returns a Future that contains a Response. The Future class is used in Dart to deal with asynchronous functions, and a future object reflects a possible value or error that will be visible in the Future at some point.
+Tree shaking is especially important for mobile applications where app size is a crucial factor. It ensures that only the necessary code is included in the final build, making the app lighter and quicker to download. Dart's strong static typing and robust tooling support make tree shaking more effective, contributing to smaller and more efficient apps when using Flutter.
 
----
-### Less Knows
+### Dart Isolates
+It enables concurrent and parallel programming. Isolates provide a way to run multiple independent pieces of code concurrently, without sharing memory. This feature can enhance app performance by leveraging multi-core processors and managing computationally-intensive tasks without blocking the main UI thread.
 
-One reason that may be less known to developers is that Flutter's creators chose to use Dart because it allowed them to achieve their vision of building a high-performance and expressive framework. Dart was designed with a modern and flexible syntax, and it includes features that enable Flutter to provide a rich set of widgets and tools for developers to build beautiful and responsive user interfaces.
-Furthermore, Dart's architecture allows Flutter to use a unique approach to layout and rendering that is optimized for performance and customizability. This approach involves using a reactive programming model with a high-performance rendering engine that provides fast and smooth animations and transitions, even on low-end devices.
-
+Isolates can improve the responsiveness of Flutter apps, especially in scenarios involving complex computations, resource-intensive operations, or background tasks. This feature might not be widely discussed, but it contributes to the overall performance and user experience of Flutter applications.

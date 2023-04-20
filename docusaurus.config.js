@@ -1,11 +1,14 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+
+async function createConfig() {
+  const mdxMermaid = await import('mdx-mermaid')
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+return {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
@@ -43,6 +46,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          
+          remarkPlugins: [mdxMermaid.default],
         },
         blog: {
           showReadingTime: true,
@@ -119,5 +124,5 @@ const config = {
       },
     }),
 };
-
-module.exports = config;
+}
+module.exports = createConfig;
