@@ -6,7 +6,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 
 async function createConfig() {
-  const mdxMermaid = await import('mdx-mermaid')
 /** @type {import('@docusaurus/types').Config} */
 return {
   title: 'My Site',
@@ -47,7 +46,6 @@ return {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
           
-          remarkPlugins: [mdxMermaid.default],
         },
         blog: {
           showReadingTime: true,
