@@ -119,6 +119,8 @@ return {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['dart'],
+
       },
     }),
 };

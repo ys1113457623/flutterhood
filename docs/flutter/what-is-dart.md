@@ -9,11 +9,6 @@ Dart is a modern, class-based, object-oriented programming language that is desi
 It was first introduced by Google in 2011 as a language for web development, but has since evolved into a general-purpose language that can be used for a wide range of applications, including web and mobile app development, server-side development, and command-line tools.
 
 
-import MermaidComponent from '@site/src/components/MermaidComponent';
-import { whatIsDart } from './const/charts.js';
-
-<MermaidComponent example={whatIsDart} />
-
 ## **History Of Dart**
 
 Dart was first introduced by Google in October 2011 as a language for web development, with the goal of creating a scalable and efficient language that could be used for both client-side and server-side development. It was designed as a replacement for JavaScript, which was seen as inadequate for large-scale web applications.
