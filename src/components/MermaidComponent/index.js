@@ -1,10 +1,10 @@
 import React from "react";
 import Mermaid from "./Mermaid";
-import example from "./example";
+import './index.css'
 
 function MermaidComponent({ example }) {
   return (
-    <div className="App">
+    <div className="diagram">
       <Mermaid chart={example} />
     </div>
   );

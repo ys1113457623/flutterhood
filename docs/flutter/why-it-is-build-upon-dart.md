@@ -2,15 +2,16 @@
 sidebar_position: 2
 ---
 
+
+
 import MermaidComponent from '@site/src/components/MermaidComponent';
 import { whyItIsBuildUponDart } from './const/charts.js';
-
-<MermaidComponent example={whyItIsBuildUponDart} />
-
 
 
 # Why Flutter Uses Dart
 Flutter uses Dart because it allows the framework to avoid using a separate declarative layout language such as JSX or XML. Dart's layout is both declarative and programmatic, making it easy for developers to read and quickly visualize. This eliminates the need for a separate markup language and enables developers to write more expressive, efficient, and maintainable code. In summary, Dart's declarative and programmatic approach to layout simplifies Flutter's development process and improves the overall experience for developers.
+
+<MermaidComponent example={whyItIsBuildUponDart} />
 
 ### Performance
 

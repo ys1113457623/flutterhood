@@ -53,6 +53,7 @@ mermaid.initialize({
   fontFamily: "Fira Code"
 });
 
+
 export default class Mermaid extends React.Component {
   componentDidMount() {
     mermaid.contentLoaded();
